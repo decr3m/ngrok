@@ -4,5 +4,5 @@ tunnels:
     addr: 3128
     proto: tcp
   ssh-access:
-    addr: 22
+    addr: 8022
     proto: tcp
