@@ -11,9 +11,9 @@ async function main() {
     console.log("HTTP(s) proxy server listening on port %d", port);
   });
   const authtoken = fs.readFileSync("./authtoken", "utf-8");
-  console.log(">>ngrok-termux/index::", "authtoken", authtoken); //TRACE
+  // console.log(">>ngrok-termux/index::", "authtoken", authtoken); //TRACE
   const url = await ngrok.connect({
-    authtoken,
+    // authtoken,
     proto: "tcp",
     addr: port,
     binPath: () => ".",

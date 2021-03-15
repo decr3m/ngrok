@@ -15,7 +15,7 @@ async function main() {
 
   const authtoken = fs.readFileSync("./authtoken", "utf-8");
   const url = await ngrok.connect({
-    authtoken,
+    // authtoken,
     proto: "http",
     addr: port,
     binPath: () => ".",
