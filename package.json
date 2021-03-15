@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "gritty": "^6.0.2",
-    "proxy": "^1.0.2"
+    "proxy": "^1.0.2",
+    "yaml": "^1.10.2"
   }
 }

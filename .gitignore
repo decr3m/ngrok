@@ -2,3 +2,4 @@ node_modules
 authtoken
 ngrok
 ngrok.exe
+ngrok.yml
