@@ -13,7 +13,7 @@ async function main() {
     console.log(`child process exited with code ${code}`)
   );
 
-  const authtoken = fs.readFileSync("./authtoken", "utf-8");
+  // const authtoken = fs.readFileSync("./authtoken", "utf-8");
   const url = await ngrok.connect({
     // authtoken,
     proto: "http",

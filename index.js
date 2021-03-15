@@ -10,7 +10,7 @@ async function main() {
     const port = server.address().port;
     console.log("HTTP(s) proxy server listening on port %d", port);
   });
-  const authtoken = fs.readFileSync("./authtoken", "utf-8");
+  // const authtoken = fs.readFileSync("./authtoken", "utf-8");
   // console.log(">>ngrok-termux/index::", "authtoken", authtoken); //TRACE
   const url = await ngrok.connect({
     // authtoken,
