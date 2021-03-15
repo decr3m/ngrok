@@ -16,6 +16,8 @@ async function main() {
     authtoken,
     proto: "tcp",
     addr: port,
+    binPath: () => ".",
+    region: "ap",
   });
   console.log(">>proxy/index::", "url", url); //TRACE
 }
@@ -23,3 +25,4 @@ async function main() {
 main();
 
 // https://github.com/inconshreveable/ngrok/issues/446#issuecomment-629018925
+// https://developers.cloudflare.com/cloudflare-one/connections/connect-apps/install-and-setup/installation

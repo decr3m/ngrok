@@ -1,4 +1,5 @@
 #!/bin/dash
 apt update && upgrade -y
 apt install nodejs -y
-pkg install yarn
+pkg install yarn -y
+pkg install python -y
