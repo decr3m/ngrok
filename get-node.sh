@@ -2,4 +2,3 @@
 apt update && upgrade -y
 apt install nodejs -y
 pkg install yarn -y
-pkg install python -y
