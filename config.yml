@@ -1,9 +1,8 @@
 region: ap
 tunnels:
-  ssh:
-    addr: 3244
-    bind_tls: true
-    proto: http
+  proxy:
+    addr: 3128
+    proto: tcp
   ssh-access:
     addr: 22
     proto: tcp
