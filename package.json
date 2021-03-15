@@ -5,7 +5,6 @@
   "license": "MIT",
   "dependencies": {
     "gritty": "^6.0.2",
-    "ngrok": "^3.4.0",
     "proxy": "^1.0.2"
   }
 }
